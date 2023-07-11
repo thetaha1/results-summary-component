@@ -67,7 +67,7 @@ svg {
 
 /* * Global Style */
 body {
-  background-color: var(--clr-neutral-200);
+  background-color: var(--clr-neutral-100);
   font-family: var(--font-family-default);
   font-size: var(--fs-500);
   display: flex;
@@ -81,6 +81,8 @@ main {
   flex-direction: row;
   background-color: var(--clr-neutral-100);
   border-radius: 2rem;
+  box-shadow: 0px 30px 60px 0px rgba(61, 108, 236, 0.15);
+
   /* justify-content: center;
   align-items: center; */
 }
